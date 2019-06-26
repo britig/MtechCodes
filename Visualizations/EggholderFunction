@@ -1,0 +1,5 @@
+y = -(x2 + 47) * np.sin(np.sqrt(abs(x1 / 2.0 + (x2 + 47.0)))) - (x1 * np.sin(np.sqrt(abs(x1 - (x2 + 47.0)))))
+
+
+Function()
+a(x,y)=Function(-(y+47)*sin(sqrt(abs(x/2+y+47)))-(x*sin(sqrt(abs(x-(y+47))))),0,512,0,512)
